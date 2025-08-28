@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="appName">Where am I</title>
+    <link rel="stylesheet" href="popup.css?v=3.4">
+</head>
+<body>
+    <div class="container">
+        <div class="content" id="content">
+            <button id="refreshBtn" class="refresh-icon-btn" data-i18n-title="refreshTooltip">
+                <img src="icons/refresh.png" data-i18n-alt="refresh" class="refresh-icon">
+            </button>
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p data-i18n="loadingMessage">Loading your location...</p>
+            </div>
+            
+            <div class="ip-info" id="ipInfo" style="display: none;">
+                <div class="country-section">
+                    <img id="flagImage" class="flag" data-i18n-alt="countryFlag" />
+                    <div class="country-details">
+                        <h2 id="countryName">-</h2>
+                        <p class="country-code" id="countryCode">-</p>
+                    </div>
+                </div>
+                
+                <div class="details">
+                    <div class="detail-item">
+                        <span class="label" data-i18n="ipAddress">IP Address:</span>
+                        <span class="value" id="ipAddress">-</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label" data-i18n="city">City:</span>
+                        <span class="value" id="city">-</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label" data-i18n="region">Region:</span>
+                        <span class="value" id="region">-</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label" data-i18n="lastUpdate">Last Update:</span>
+                        <span class="value" id="lastUpdate">-</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="error" id="error" style="display: none;">
+                <div class="error-icon">⚠️</div>
+                <h3 data-i18n="errorTitle">Unable to get location</h3>
+                <p id="errorMessage" data-i18n="errorMessage">Please check your network connection and try again</p>
+            </div>
+        </div>
+        
+
+        
+        <div class="footer">
+            <p data-i18n="dataSource">Data: ipapi.co | Flags: flagpedia.net</p>
+        </div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>

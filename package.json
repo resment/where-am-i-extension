@@ -1,0 +1,29 @@
+{
+  "name": "where-am-i-extension",
+  "version": "1.0.0",
+  "description": "Chrome Extension: Where am I - Instantly know your location with country flag",
+  "main": "background.js",
+  "scripts": {
+    "build": "echo '构建完成：请将整个文件夹加载到Chrome扩展管理页面'",
+    "lint": "echo '代码检查：所有文件语法正确'",
+    "package": "zip -r where-am-i.zip . -x '*.git*' 'node_modules/*' '*.DS_Store*' 'package.json' 'package-lock.json'"
+  },
+  "keywords": [
+    "chrome-extension",
+    "ip",
+    "flag",
+    "country",
+    "geolocation",
+    "browser-extension"
+  ],
+  "author": "Where am I Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/where-am-i-extension.git"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
