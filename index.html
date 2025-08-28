@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where am I - Chrome Extension</title>
+    <meta name="description" content="Instantly know your IP location with country flags displayed on your browser toolbar. Privacy-focused, lightweight Chrome extension.">
+    <meta name="keywords" content="chrome extension, ip location, country flag, geolocation, privacy, vpn">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://resment.github.io/where-am-i-extension/">
+    <meta property="og:title" content="Where am I - Chrome Extension">
+    <meta property="og:description" content="Instantly know your IP location with country flags displayed on your browser toolbar.">
+    <meta property="og:image" content="https://resment.github.io/where-am-i-extension/assets/og-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://resment.github.io/where-am-i-extension/">
+    <meta property="twitter:title" content="Where am I - Chrome Extension">
+    <meta property="twitter:description" content="Instantly know your IP location with country flags displayed on your browser toolbar.">
+    <meta property="twitter:image" content="https://resment.github.io/where-am-i-extension/assets/og-image.png">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="icons/icon-32.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="icons/icon-32.png" alt="Where am I Logo" class="logo-img">
+                <span class="logo-text">Where am I</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#download">Download</a>
+                <a href="#privacy">Privacy</a>
+                <a href="https://github.com/resment/where-am-i-extension" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Instantly Know Your <i>Virtual Location</i>
+                    <span class="hero-subtitle">with a single glance at your browser toolbar</span>
+                </h1>
+                <p class="hero-description">
+                    Where am I displays your current IP country flag on the extension icon, 
+                    giving you instant geographic awareness without any clicks or effort.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">Download Extension</a>
+                    <a href="#demo" class="btn btn-secondary">See Demo</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="extension-preview">
+                    <div class="browser-toolbar">
+                        <div class="extension-icon">
+                            <img src="https://flagpedia.net/data/flags/w1160/us.webp" alt="US Flag" class="flag-icon">
+                        </div>
+                        <span class="toolbar-text">Where am I</span>
+                    </div>
+                    <div class="popup-preview">
+                        <div class="popup-header">
+                            <span class="popup-title">Where am I</span>
+                            <button class="refresh-btn">⟳</button>
+                        </div>
+                        <div class="popup-content">
+                            <div class="flag-section">
+                                <img src="https://flagpedia.net/data/flags/w1160/us.webp" alt="US Flag" class="popup-flag">
+                                <div class="country-info">
+                                    <h3>United States</h3>
+                                    <span class="country-code">US</span>
+                                </div>
+                            </div>
+                            <div class="details-section">
+                                <div class="detail-item">
+                                    <span class="label">IP Address:</span>
+                                    <span class="value">1.32.232.0</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="label">City:</span>
+                                    <span class="value">Los Angeles</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="label">Region:</span>
+                                    <span class="value">Greater Los Angeles</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="label">Last Update:</span>
+                                    <span class="value">Just now</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Where am I?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚩</div>
+                    <h3>Instant Location Awareness</h3>
+                    <p>See your current country flag at a glance in the browser toolbar. No clicks, no waiting.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Privacy-Focused</h3>
+                    <p>We don't collect or store any personal information. Only public IP geolocation data.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightning Fast</h3>
+                    <p>Built-in flag resources ensure instant loading and offline functionality.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>Bilingual Support</h3>
+                    <p>Complete English and Simplified Chinese interface with automatic language detection.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Auto & Manual Refresh</h3>
+                    <p>Updates every 30 minutes automatically or refresh manually anytime.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Perfect for Everyone</h3>
+                    <p>Digital nomads, VPN users, IT professionals, remote workers, and privacy enthusiasts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section class="use-cases">
+        <div class="container">
+            <h2 class="section-title">Perfect For These Scenarios</h2>
+            <div class="use-cases-grid">
+                <div class="use-case">
+                    <div class="use-case-icon">🌍</div>
+                    <h3>Digital Nomads & Travelers</h3>
+                    <ul>
+                        <li>Verify VPN locations instantly</li>
+                        <li>Check apparent location when traveling</li>
+                        <li>Access region-specific services</li>
+                    </ul>
+                </div>
+                <div class="use-case">
+                    <div class="use-case-icon">🔒</div>
+                    <h3>Privacy & Security</h3>
+                    <ul>
+                        <li>Confirm VPN server location</li>
+                        <li>Monitor digital footprint</li>
+                        <li>Verify location-based security</li>
+                    </ul>
+                </div>
+                <div class="use-case">
+                    <div class="use-case-icon">💼</div>
+                    <h3>Business & IT</h3>
+                    <ul>
+                        <li>Network troubleshooting</li>
+                        <li>Compliance monitoring</li>
+                        <li>Remote work verification</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <h2 class="section-title">Get Where am I Today</h2>
+            <div class="download-options">
+                <div class="download-option">
+                    <h3>Chrome Web Store</h3>
+                    <p>Official release coming soon!</p>
+                    <button class="btn btn-primary" disabled>Coming Soon</button>
+                </div>
+                <div class="download-option">
+                    <h3>Developer Version</h3>
+                    <p>Download and install manually</p>
+                    <a href="https://github.com/resment/where-am-i-extension" class="btn btn-secondary" target="_blank">Download from GitHub</a>
+                </div>
+            </div>
+            <div class="installation-steps">
+                <h3>Installation Steps</h3>
+                <ol>
+                    <li>Download the extension files</li>
+                    <li>Open Chrome and go to <code>chrome://extensions/</code></li>
+                    <li>Enable "Developer mode"</li>
+                    <li>Click "Load unpacked" and select the extension folder</li>
+                    <li>Enjoy instant location awareness!</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Section -->
+    <section id="privacy" class="privacy">
+        <div class="container">
+            <h2 class="section-title">Privacy & Security</h2>
+            <div class="privacy-grid">
+                <div class="privacy-item">
+                    <div class="privacy-icon">✅</div>
+                    <h3>No Personal Data Collection</h3>
+                    <p>We only retrieve public IP geolocation data. No personal information is collected or stored.</p>
+                </div>
+                <div class="privacy-item">
+                    <div class="privacy-icon">✅</div>
+                    <h3>Local Flag Storage</h3>
+                    <p>All country flag images are stored locally on your device for privacy and speed.</p>
+                </div>
+                <div class="privacy-item">
+                    <div class="privacy-icon">✅</div>
+                    <h3>Minimal Permissions</h3>
+                    <p>Only requests necessary Chrome APIs. No unnecessary access to your data.</p>
+                </div>
+                <div class="privacy-item">
+                    <div class="privacy-icon">✅</div>
+                    <h3>Open Source</h3>
+                    <p>Fully transparent code that you can inspect and verify for yourself.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Where am I</h4>
+                    <p>Instantly know your location with country flags displayed on your browser toolbar.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="https://github.com/resment/where-am-i-extension" target="_blank">GitHub</a></li>
+                        <li><a href="#privacy">Privacy</a></li>
+                        <li><a href="#download">Download</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="https://github.com/resment/where-am-i-extension/issues" target="_blank">Report Issues</a></li>
+                        <li><a href="https://github.com/resment/where-am-i-extension/discussions" target="_blank">Discussions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Where am I Team. Made with ❤️ for the global internet community.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
