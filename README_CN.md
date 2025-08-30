@@ -2,8 +2,8 @@
 
 **一个轻量级的 Chrome 扩展，通过在扩展图标上显示对应的国家国旗，即时显示您的 IP 位置。**
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-即将上线-blue)](https://chrome.google.com/webstore)
-[![Version](https://img.shields.io/badge/version-1.0.0-green)]()
+[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-blue)]([https://chrome.google.com/webstore](https://chromewebstore.google.com/detail/where-am-i/pblkmgcemiedifjihjelpggkbhhimgom))
+[![Version](https://img.shields.io/badge/version-1.0.1-green)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 [🇺🇸 English](README.md) | 🇨🇳 中文
