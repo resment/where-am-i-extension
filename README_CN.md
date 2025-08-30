@@ -34,7 +34,7 @@
 ### 开发者安装
 1. **下载**：克隆或下载此仓库
    ```bash
-   git clone https://github.com/your-username/where-am-i-extension.git
+   git clone https://github.com/resment/where-am-i-extension.git
    ```
 
 2. **打开 Chrome 扩展页面**：导航到 `chrome://extensions/`
