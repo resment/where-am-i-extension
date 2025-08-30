@@ -34,7 +34,7 @@
 ### Developer Installation
 1. **Download**: Clone or download this repository
    ```bash
-   git clone https://github.com/your-username/where-am-i-extension.git
+   git clone https://github.com/resment /where-am-i-extension.git
    ```
 
 2. **Open Chrome Extensions**: Navigate to `chrome://extensions/`
