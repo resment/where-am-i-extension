@@ -2,7 +2,7 @@
 
 **A lightweight Chrome extension that instantly shows your IP location by displaying the corresponding country flag on the extension icon.**
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Coming%20Soon-blue)](https://chrome.google.com/webstore)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Coming%20Soon-blue)](https://chromewebstore.google.com/detail/where-am-i/pblkmgcemiedifjihjelpggkbhhimgom)
 [![Version](https://img.shields.io/badge/version-1.0.1-green)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
