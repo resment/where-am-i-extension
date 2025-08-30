@@ -6,7 +6,7 @@
 [![Version](https://img.shields.io/badge/version-1.0.1-green)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-[🇨🇳 中文](README_CN.md) | 🇺🇸 English
+[CN 中文](README_CN.md) | US English
 
 ## ✨ Features
 
