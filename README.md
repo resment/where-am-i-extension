@@ -3,7 +3,7 @@
 **A lightweight Chrome extension that instantly shows your IP location by displaying the corresponding country flag on the extension icon.**
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Coming%20Soon-blue)](https://chrome.google.com/webstore)
-[![Version](https://img.shields.io/badge/version-1.0.0-green)]()
+[![Version](https://img.shields.io/badge/version-1.0.1-green)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 [🇨🇳 中文](README_CN.md) | 🇺🇸 English
@@ -131,7 +131,7 @@ cd where-am-i-extension
 # Create distribution package
 ./package-for-store.sh
 
-# Output: dist/where-am-i-v1.0.0.zip (ready for Chrome Web Store)
+# Output: dist/where-am-i-v1.0.1.zip (ready for Chrome Web Store)
 ```
 
 ### Testing
