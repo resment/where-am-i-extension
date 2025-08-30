@@ -17,7 +17,7 @@
     "default_title": "Where am I - View your location"
   },
   "author": "Where am I Team",
-  "homepage_url": "https://github.com/your-username/where-am-i-extension",
+  "homepage_url": "https://github.com/resment/where-am-i-extension",
   "permissions": [
     "storage",
     "activeTab",
